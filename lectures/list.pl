@@ -29,4 +29,4 @@ member3(X, L):-
 % sublist(List, Sublist)
 sublist(S, L):-
   conc(_, L2, L),
-  conc(S, L3, L2).
+  conc(S, _, L2).
